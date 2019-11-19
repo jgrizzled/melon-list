@@ -1,0 +1,59 @@
+header {
+  margin: auto auto;
+  text-align: center;
+}
+
+form {
+  margin: auto auto;
+  text-align: center;
+}
+
+#search-funds {
+  padding-bottom: 0.5rem;
+}
+
+#currency-selector {
+  padding-bottom: 0.25rem;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+#fund-table {
+  max-width: 1000px;
+  border: 1px solid black;
+  border-radius: 5px;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  margin: auto auto;
+  
+  th {
+    text-align: left;
+    padding: 0.5rem 1rem;
+  }
+
+  tbody:hover {
+    background: #cccccc;
+  }
+
+  .fund-row {
+    margin: 7px;
+    border-top: 1px solid black;
+    td {
+      padding: 0.5rem 1rem;
+    }
+
+  }
+
+  .fund-expander {
+    margin: 7px;
+    border-bottom: 1px solid black;
+  }
+}
+
+
+
+
+

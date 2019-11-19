@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Melon List</title>
+</head>
+<body>
+  <header>
+    <h1>Melon List</h1>
+    <h4><a href="https://melonprotocol.com/" target="_blank">Melon Protocol</a> is a decentralized fund management platform running on <a href="https://ethereum.org/">Ethereum</a>.</h4>
+    <h5>View funds live on the blockchain.</h5>
+  </header>
+  <form id="search-funds">
+    <input id="fund-name" placeholder="Leave blank for all">
+    <input type="submit" id="search-submit" value="Load Funds">
+  </form>
+  <form id="currency-selector">
+  Show Prices in:
+  <input type="radio" class="price-radio" name="denomination" value="ETH" id="eth-button" checked>ETH
+  <input type="radio" class="price-radio" name="denomination" value="BTC" id="btc-button">BTC
+  <input type="radio" class="price-radio" name="denomination" value="USD" id="usd-button">USD
+  </form>
+  <table id="fund-table" class="hidden">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Asset Value</th>
+        <th>Share Price</th>
+        <th>Creation Date</th>
+      </tr>
+    </thead>
+  </table>
+</body>
+</html>
