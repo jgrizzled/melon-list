@@ -8,8 +8,7 @@ import {PriceSource, getTokenByAddress} from './js/priceSource' //exchange rate 
 import {formatNumber, formatUnixDate} from './js/utils'
 import './styles/styles.scss';
 
-//const web3 = new Web3('https://mainnet.infura.io/v3/b89c21c5a5d149d7b38562a7f28f201e');
-const web3 = new Web3('http://192.168.1.22:8545');
+const web3 = new Web3('https://mainnet.infura.io/v3/b89c21c5a5d149d7b38562a7f28f201e');
 
 const priceSource = new PriceSource(web3)
 let fundList = []
