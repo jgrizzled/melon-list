@@ -1,8 +1,9 @@
 {
-  "name": "api-hack",
-  "version": "1.0.0",
+  "name": "melon-list",
+  "version": "0.0.1",
   "main": "index.html",
   "license": "MIT",
+  "homepage": "https://jgrizzled.github.io/melon-list",
   "dependencies": {
     "@melonproject/melonjs": "^0.0.27",
     "datatables.net": "^1.10.20",
