@@ -6,7 +6,7 @@
   "homepage": "https://jgrizzled.github.io/melon-list",
   "dependencies": {
     "@melonproject/melonjs": "^0.0.27",
-    "datatables.net": "^1.10.20",
+    "datatables.net": "^1.11.3",
     "datatables.net-dt": "^1.10.20",
     "entities": "^2.0.0",
     "jquery": "^3.4.1",
